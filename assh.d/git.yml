@@ -1,0 +1,15 @@
+hosts:
+  # Source Code Host
+  github.com:
+    IdentityFile: ~/.ssh/srajasimman_github
+    PreferredAuthentications: publickey
+    HostName: github.com
+    User: srajasimman
+    Port: 22
+
+  gitlab.com:
+    IdentityFile: ~/.ssh/srajasimman_gitlab
+    PreferredAuthentications: publickey
+    HostName: gitlab.com
+    User: srajasimman
+    Port: 22

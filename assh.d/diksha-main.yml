@@ -1,0 +1,39 @@
+templates:
+  diksha-main:
+    User: rajas
+    IdentityFile: ~/.ssh/id_rsa
+    ForwardAgent: yes
+
+  diksha-prod:
+    User: rajas
+    IdentityFile: ~/.ssh/id_rsa
+    ForwardAgent: yes
+    Gateways: dk-prod-bastion
+
+  diksha-preprod:
+    User: rajas
+    IdentityFile: ~/.ssh/id_rsa
+    ForwardAgent: yes
+    Gateways: dk-preprod-bastion
+
+hosts:
+  # DIKSHA
+  dk-admin-bastion:
+    Hostname: 10.20.1.5
+    Inherits: diksha-main
+
+  dk-prod-bastion:
+    HostName: 11.4.0.29
+    Inherits: diksha-main
+    Gateways: dk-admin-bastion
+
+  dk-preprod-bastion:
+    HostName: 11.5.0.10
+    Inherits: diksha-main
+    Gateways: dk-admin-bastion
+
+  dk-jenkins:
+    HostName: 10.20.0.9
+    Inherits: diksha-main
+    Gateways: dk-admin-bastion
+

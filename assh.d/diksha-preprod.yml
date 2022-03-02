@@ -1,0 +1,358 @@
+hosts:
+  # DIKSHA PREPROD
+  dk-preprod-analytics-apinew-1:
+    HostName: 11.5.3.8
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-10:
+    HostName: 11.5.2.41
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-11:
+    HostName: 11.5.2.42
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-1:
+    HostName: 11.5.2.31
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-2:
+    HostName: 11.5.2.32
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-3:
+    HostName: 11.5.2.33
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-4:
+    HostName: 11.5.2.34
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-5:
+    HostName: 11.5.2.35
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-6:
+    HostName: 11.5.2.36
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-7:
+    HostName: 11.5.2.37
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-8:
+    HostName: 11.5.2.38
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-9:
+    HostName: 11.5.2.40
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-10:
+    HostName: 11.5.2.55
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-11:
+    HostName: 11.5.2.56
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-1:
+    HostName: 11.5.2.46
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-2:
+    HostName: 11.5.2.47
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-3:
+    HostName: 11.5.2.48
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-4:
+    HostName: 11.5.2.49
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-5:
+    HostName: 11.5.2.50
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-6:
+    HostName: 11.5.2.51
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-7:
+    HostName: 11.5.2.52
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-8:
+    HostName: 11.5.2.53
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-analysis-new-9:
+    HostName: 11.5.2.54
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-cluster-04:
+    HostName: 11.5.2.19
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-dry-run-1:
+    HostName: 11.5.3.4
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-lms-cluster-1:
+    HostName: 11.5.2.16
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-lms-cluster-2:
+    HostName: 11.5.2.17
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-lms-cluster-3:
+    HostName: 11.5.2.18
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-reaper:
+    HostName: 11.5.2.5
+    Inherits: diksha-preprod
+
+  dk-preprod-cassandra-lp-dp:
+    HostName: 11.5.2.4
+    Inherits: diksha-preprod
+
+  dk-preprod-data-spark-preprod-1:
+    HostName: 11.5.3.31
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-dp-redis-preprod-centralindia-001:
+    HostName: 11.5.3.18
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-ingestion-kafka-preprod-centralindia-01:
+    HostName: 11.5.2.58
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-keycloak-preprod-centralindia-02:
+    HostName: 11.5.0.11
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-keycloak-preprod-centralindia-01:
+    HostName: 11.5.0.6
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-learning-preprod-centralind-001:
+    HostName: 11.5.3.27
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-lp-redis-preprod-centralindia-001:
+    HostName: 11.5.2.22
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-ml-analytics-preprod-centralindia-01:
+    HostName: 11.5.3.20
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-neo4j-preprod-centralindia-001:
+    HostName: 11.5.2.21
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-processing-kafka-preprod-centralindia-001:
+    HostName: 11.5.2.24
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-processing-kafka-preprod-centralindia-002:
+    HostName: 11.5.2.23
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-processing-kafka-preprod-centralindia-003:
+    HostName: 11.5.2.25
+    Inherits: diksha-preprod
+
+  dk-preprod-diksha-redis-metadata-preprod-centralindia-001:
+    HostName: 11.5.3.16
+    Inherits: diksha-preprod
+
+  dk-preprod-druid:
+    HostName: 11.5.2.10
+    Inherits: diksha-preprod
+
+  dk-preprod-es-dry-run-01:
+    HostName: 11.5.3.25
+    Inherits: diksha-preprod
+
+  dk-preprod-es-dry-run-02:
+    HostName: 11.5.3.23
+    Inherits: diksha-preprod
+
+  dk-preprod-es-dry-run-03:
+    HostName: 11.5.3.24
+    Inherits: diksha-preprod
+
+  dk-preprod-es-lms-dry-run-1:
+    HostName: 11.5.3.6
+    Inherits: diksha-preprod
+
+  dk-preprod-es-lms-1:
+    HostName: 11.5.2.9
+    Inherits: diksha-preprod
+
+  dk-preprod-graylog-log-es:
+    HostName: 11.5.0.8
+    Inherits: diksha-preprod
+
+  dk-preprod-graylog:
+    HostName: 11.5.0.19
+    Inherits: diksha-preprod
+
+  dk-preprod-internalproxy:
+    HostName: 11.5.2.15
+    Inherits: diksha-preprod
+
+  dk-preprod-kafka-new-1:
+    HostName: 11.5.3.21
+    Inherits: diksha-preprod
+
+  dk-preprod-kafka-new-2:
+    HostName: 11.5.3.22
+    Inherits: diksha-preprod
+
+  dk-preprod-kafka-new-3:
+    HostName: 11.5.3.29
+    Inherits: diksha-preprod
+
+  dk-preprod-kafka-ingproc-2:
+    HostName: 11.5.3.17
+    Inherits: diksha-preprod
+
+  dk-preprod-kafka-ingproc:
+    HostName: 11.5.3.7
+    Inherits: diksha-preprod
+
+  dk-preprod-keycloak-2:
+    HostName: 11.5.0.15
+    Inherits: diksha-preprod
+
+  dk-preprod-keycloak-1:
+    HostName: 11.5.0.4
+    Inherits: diksha-preprod
+
+  dk-preprod-kibana-grafana-1:
+    HostName: 11.5.3.19
+    Inherits: diksha-preprod
+
+  dk-preprod-learning-1:
+    HostName: 11.5.3.9
+    Inherits: diksha-preprod
+
+  dk-preprod-log-es-2:
+    HostName: 11.5.0.13
+    Inherits: diksha-preprod
+
+  dk-preprod-lp-es-1:
+    HostName: 11.5.2.13
+    Inherits: diksha-preprod
+
+  dk-preprod-lp-dp-es-1:
+    HostName: 11.5.2.7
+    Inherits: diksha-preprod
+
+  dk-preprod-mongodb:
+    HostName: 11.5.2.93
+    Inherits: diksha-preprod
+
+  dk-preprod-neo4j-1:
+    HostName: 11.5.2.11
+    Inherits: diksha-preprod
+
+  dk-preprod-neo4j:
+    HostName: 11.5.2.6
+    Inherits: diksha-preprod
+
+  dk-preprod-os-hardening-1:
+    HostName: 11.5.2.29
+    Inherits: diksha-preprod
+
+  dk-preprod-os-hardening:
+    HostName: 11.5.2.20
+    Inherits: diksha-preprod
+
+  dk-preprod-preprod-bastion:
+    HostName: 11.5.0.10
+    Inherits: diksha-preprod
+
+  dk-preprod-preprod-kube-bastion:
+    HostName: 11.5.3.36
+    Inherits: diksha-preprod
+
+  dk-preprod-preprod-report-cassandra:
+    HostName: 11.5.2.98
+    Inherits: diksha-preprod
+
+  dk-preprod-py-spark-sl:
+    HostName: 11.5.3.37
+    Inherits: diksha-preprod
+
+  dk-preprod-redis-meta2-1:
+    HostName: 11.5.2.59
+    Inherits: diksha-preprod
+
+  dk-preprod-redis-nodebb:
+    HostName: 11.5.2.39
+    Inherits: diksha-preprod
+
+  dk-preprod-redis-temp:
+    HostName: 11.5.2.43
+    Inherits: diksha-preprod
+
+  dk-preprod-restore-lp-dp-es-1:
+    HostName: 11.5.2.75
+    Inherits: diksha-preprod
+
+  dk-preprod-search:
+    HostName: 11.5.3.15
+    Inherits: diksha-preprod
+
+  dk-preprod-secor:
+    HostName: 11.5.3.10
+    Inherits: diksha-preprod
+
+  dk-preprod-snap-restore-lp-dp-es:
+    HostName: 11.5.2.74
+    Inherits: diksha-preprod
+
+  dk-preprod-spark-1:
+    HostName: 11.5.3.39
+    Inherits: diksha-preprod
+
+  dk-preprod-spark:
+    HostName: 11.5.3.13
+    Inherits: diksha-preprod
+
+  dk-preprod-survey-sl:
+    HostName: 11.5.3.38
+    Inherits: diksha-preprod
+
+  dk-preprod-test-cassandra-01:
+    HostName: 11.5.2.30
+    Inherits: diksha-preprod
+
+  dk-preprod-upgrade-comp-es-test-1:
+    HostName: 11.5.2.73
+    Inherits: diksha-preprod
+
+  dk-preprod-yarn-rm:
+    HostName: 11.5.3.14
+    Inherits: diksha-preprod
+
+  dk-preprod-yarn-slavenew-1:
+    HostName: 11.5.3.11
+    Inherits: diksha-preprod
+
+  dk-preprod-yarn-slavenew-2:
+    HostName: 11.5.3.5
+    Inherits: diksha-preprod
+
+  dk-preprod-yarn-slavenew-3:
+    HostName: 11.5.3.12
+    Inherits: diksha-preprod
+

@@ -1,0 +1,24 @@
+defaults:
+  UserKnownHostsFile: /dev/null
+  loglevel: QUIET
+  StrictHostKeyChecking: no
+  ConnectionAttempts: 1
+  ServerAliveInterval: 60
+  ServerAliveCountMax: 3
+  Compression: yes
+  Hooks:
+    AfterConfigWrite:
+      # Alert me with a Desktop notification
+      - notify "{{.SSHConfigPath}} has been rewritten"
+
+    OnConnect:
+      # Alert me with a Desktop notification
+      - notify "New SSH connection to {{.Host.Prototype}} at {{.Stats.ConnectedAt}}."
+
+    OnDisconnect:
+      # write on terminal and in a Desktop notification some statistics about the finished connection
+      - "write SSH connection to {{.Host.HostName}} closed, {{.Stats.WrittenBytes }} bytes written in {{.Stats.ConnectionDuration}} ({{.Stats.AverageSpeed}}bps)."
+      - "notify SSH connection to {{.Host.HostName}} closed, {{.Stats.WrittenBytes }} bytes written in {{.Stats.ConnectionDuration}} ({{.Stats.AverageSpeed}}bps)."
+
+includes:
+  - ~/.ssh/assh.d/*.yml

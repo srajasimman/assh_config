@@ -1,0 +1,644 @@
+hosts:
+  # DIKSHA
+  dk-prod-adhoc-spark-prod:
+    HostName: 11.4.3.48
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-01:
+    HostName: 11.4.2.11
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-02:
+    HostName: 11.4.2.26
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-03:
+    HostName: 11.4.2.27
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-04:
+    HostName: 11.4.2.89
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-05:
+    HostName: 11.4.2.90
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-06:
+    HostName: 11.4.2.98
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-07:
+    HostName: 11.4.2.92
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-08:
+    HostName: 11.4.2.12
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-09:
+    HostName: 11.4.2.13
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-10:
+    HostName: 11.4.2.14
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-11:
+    HostName: 11.4.2.18
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-new:
+    HostName: 11.4.2.30
+    Inherits: diksha-prod
+    
+  dk-prod-cassandra-prod-reaper:
+    HostName: 11.4.2.8
+    Inherits: diksha-prod
+    
+  dk-prod-comp-es-1:
+    HostName: 11.4.2.15
+    Inherits: diksha-prod
+    
+  dk-prod-comp-es-2:
+    HostName: 11.4.2.16
+    Inherits: diksha-prod
+    
+  dk-prod-comp-es-3:
+    HostName: 11.4.2.17
+    Inherits: diksha-prod
+    
+  dk-prod-db-backup-prod:
+    HostName: 11.4.2.50
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-dp-redis-prod-centralindia-001:
+    HostName: 11.4.2.57
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-bk-prod-centralindia-02:
+    HostName: 11.4.3.35
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-zk-prod-centralindia-02:
+    HostName: 11.4.3.20
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-zk-prod-centralindia-01:
+    HostName: 11.4.3.19
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-zk-prod-centralindia-03:
+    HostName: 11.4.3.32
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-bk-prod-centralindia-01:
+    HostName: 11.4.3.34
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ingestion-kafka-bk-prod-centralindia-03:
+    HostName: 11.4.3.36
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-keycloak-prod-centralindia-02:
+    HostName: 11.4.3.22
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-keycloak-prod-centralindia-04:
+    HostName: 11.4.3.25
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-keycloak-prod-centralindia-03:
+    HostName: 11.4.3.26
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-keycloak-prod-centralindia-01:
+    HostName: 11.4.3.18
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-learning-prod-centralindia-01:
+    HostName: 11.4.3.27
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-learning-prod-centralindia-02:
+    HostName: 11.4.3.31
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-lp-redis-prod-centralindia-001:
+    HostName: 11.4.2.40
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-ml-analytics-prod-centralindia-01:
+    HostName: 11.4.2.64
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-neo4j-prod-centralindia-002:
+    HostName: 11.4.2.42
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-neo4j-prod-centralindia-001:
+    HostName: 11.4.2.41
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-neo4j-prod-centralindia-003:
+    HostName: 11.4.2.43
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-zk-prod-centralindia-003:
+    HostName: 11.4.2.53
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-broker-prod-centralindia-005:
+    HostName: 11.4.2.49
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-broker-prod-centralindia-001:
+    HostName: 11.4.2.45
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-zk-prod-centralindia-002:
+    HostName: 11.4.2.52
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-zk-prod-centralindia-001:
+    HostName: 11.4.2.51
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-broker-prod-centralindia-002:
+    HostName: 11.4.2.46
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-broker-prod-centralindia-004:
+    HostName: 11.4.2.48
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-processing-kafka-broker-prod-centralindia-003:
+    HostName: 11.4.2.47
+    Inherits: diksha-prod
+    
+  dk-prod-diksha-redis-metadata-prod-centralindia-001:
+    HostName: 11.4.2.58
+    Inherits: diksha-prod
+    
+  dk-prod-dp-processing-zk-dp-1:
+    HostName: 11.4.2.66
+    Inherits: diksha-prod
+    
+  dk-prod-dp-processing-zk-dp-2:
+    HostName: 11.4.2.67
+    Inherits: diksha-prod
+    
+  dk-prod-dp-processing-zk-dp-3:
+    HostName: 11.4.2.68
+    Inherits: diksha-prod
+    
+  dk-prod-druid-historical-1:
+    HostName: 11.4.3.60
+    Inherits: diksha-prod
+    
+  dk-prod-druid-historical-2:
+    HostName: 11.4.3.61
+    Inherits: diksha-prod
+    
+  dk-prod-druid-historical-3:
+    HostName: 11.4.3.62
+    Inherits: diksha-prod
+    
+  dk-prod-druid-historical-4:
+    HostName: 11.4.3.63
+    Inherits: diksha-prod
+    
+  dk-prod-druid-historical-5:
+    HostName: 11.4.3.73
+    Inherits: diksha-prod
+    
+  dk-prod-druid-raw-zk-1:
+    HostName: 11.4.3.70
+    Inherits: diksha-prod
+    
+  dk-prod-druid-raw-zk-2:
+    HostName: 11.4.3.71
+    Inherits: diksha-prod
+    
+  dk-prod-druid-raw-zk-3:
+    HostName: 11.4.3.72
+    Inherits: diksha-prod
+    
+  dk-prod-druid-rollup-historical-2:
+    HostName: 11.4.0.77
+    Inherits: diksha-prod
+    
+  dk-prod-druid-rollup-zk-1:
+    HostName: 11.4.0.8
+    Inherits: diksha-prod
+    
+  dk-prod-druid-rollup-zk-2:
+    HostName: 11.4.0.9
+    Inherits: diksha-prod
+    
+  dk-prod-druid-rollup-zk-3:
+    HostName: 11.4.0.10
+    Inherits: diksha-prod
+    
+  dk-prod-es-lms-01:
+    HostName: 11.4.2.6
+    Inherits: diksha-prod
+    
+  dk-prod-es-lms-02:
+    HostName: 11.4.2.9
+    Inherits: diksha-prod
+    
+  dk-prod-es-lms-03:
+    HostName: 11.4.2.10
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-10:
+    HostName: 11.4.2.29
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-11:
+    HostName: 11.4.2.32
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-12:
+    HostName: 11.4.2.33
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-13:
+    HostName: 11.4.2.37
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-14:
+    HostName: 11.4.2.38
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-15:
+    HostName: 11.4.2.39
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-1:
+    HostName: 11.4.2.100
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-2:
+    HostName: 11.4.2.101
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-3:
+    HostName: 11.4.2.103
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-4:
+    HostName: 11.4.2.106
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-5:
+    HostName: 11.4.2.107
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-6:
+    HostName: 11.4.2.22
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-7:
+    HostName: 11.4.2.23
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-8:
+    HostName: 11.4.2.24
+    Inherits: diksha-prod
+    
+  dk-prod-graylog-loges-9:
+    HostName: 11.4.2.28
+    Inherits: diksha-prod
+    
+  dk-prod-influxdb-1:
+    HostName: 11.4.2.7
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-kafka-kp-1:
+    HostName: 11.4.2.73
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-kafka-kp-2:
+    HostName: 11.4.2.74
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-kafka-kp-3:
+    HostName: 11.4.2.75
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-zk-kp-1:
+    HostName: 11.4.2.76
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-zk-kp-2:
+    HostName: 11.4.2.77
+    Inherits: diksha-prod
+    
+  dk-prod-ingestion-zk-kp-3:
+    HostName: 11.4.2.78
+    Inherits: diksha-prod
+    
+  dk-prod-kafka-indexer1:
+    HostName: 11.4.2.25
+    Inherits: diksha-prod
+    
+  dk-prod-keycloak-1:
+    HostName: 11.4.0.26
+    Inherits: diksha-prod
+    
+  dk-prod-keycloak-2:
+    HostName: 11.4.0.27
+    Inherits: diksha-prod
+    
+  dk-prod-keycloak-prod-1:
+    HostName: 11.4.0.60
+    Inherits: diksha-prod
+    
+  dk-prod-keycloak-prod-2:
+    HostName: 11.4.0.61
+    Inherits: diksha-prod
+    
+  dk-prod-kibana-grafana-1:
+    HostName: 11.4.3.40
+    Inherits: diksha-prod
+    
+  dk-prod-learning-1:
+    HostName: 11.4.3.16
+    Inherits: diksha-prod
+    
+  dk-prod-learning-2:
+    HostName: 11.4.3.17
+    Inherits: diksha-prod
+    
+  dk-prod-mongodb-1:
+    HostName: 11.4.2.97
+    Inherits: diksha-prod
+    
+  dk-prod-neo4j-1:
+    HostName: 11.4.2.5
+    Inherits: diksha-prod
+    
+  dk-prod-neo4j2:
+    HostName: 11.4.2.34
+    Inherits: diksha-prod
+    
+  dk-prod-neo4j3:
+    HostName: 11.4.2.35
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-dp-1:
+    HostName: 11.4.2.59
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-dp-2:
+    HostName: 11.4.2.60
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-dp-3:
+    HostName: 11.4.2.61
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-dp-4:
+    HostName: 11.4.2.62
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-dp-5:
+    HostName: 11.4.2.63
+    Inherits: diksha-prod
+    
+  dk-prod-processing-kafka-index-1:
+    HostName: 11.4.2.44
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-1:
+    HostName: 11.4.3.41
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-2:
+    HostName: 11.4.3.42
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-5:
+    HostName: 11.4.3.23
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-6:
+    HostName: 11.4.3.75
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-raw-mm-1:
+    HostName: 11.4.3.33
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-1:
+    HostName: 11.4.0.51
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-2:
+    HostName: 11.4.0.52
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-3:
+    HostName: 11.4.0.53
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-4:
+    HostName: 11.4.0.66
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-broker:
+    HostName: 11.4.0.4
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-historical-06:
+    HostName: 11.4.0.11
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-historical-new:
+    HostName: 11.4.0.7
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-mm-new:
+    HostName: 11.4.3.10
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-mm-2:
+    HostName: 11.4.0.6
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-mm-1:
+    HostName: 11.4.0.58
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-rollup-reply-temp:
+    HostName: 11.4.0.54
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-zk-raw-1:
+    HostName: 11.4.3.28
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-zk-raw-2:
+    HostName: 11.4.3.29
+    Inherits: diksha-prod
+    
+  dk-prod-prod-druid-zk-raw-3:
+    HostName: 11.4.3.30
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog-2:
+    HostName: 11.4.2.104
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog-3:
+    HostName: 11.4.2.105
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog-4:
+    HostName: 11.4.2.19
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog-5:
+    HostName: 11.4.2.20
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog-6:
+    HostName: 11.4.2.21
+    Inherits: diksha-prod
+    
+  dk-prod-prod-graylog:
+    HostName: 11.4.2.102
+    Inherits: diksha-prod
+    
+  dk-prod-prod-internalproxy:
+    HostName: 11.4.3.46
+    Inherits: diksha-prod
+    
+  dk-prod-prod-kube-bastion:
+    HostName: 11.4.0.75
+    Inherits: diksha-prod
+    
+  dk-prod-prod-log-es-1:
+    HostName: 11.4.2.69
+    Inherits: diksha-prod
+    
+  dk-prod-prod-log-es-2:
+    HostName: 11.4.2.70
+    Inherits: diksha-prod
+    
+  dk-prod-prod-log-es-3:
+    HostName: 11.4.2.71
+    Inherits: diksha-prod
+    
+  dk-prod-prod-migration:
+    HostName: 11.4.0.5
+    Inherits: diksha-prod
+    
+  dk-prod-prod-py-spark-sl-2:
+    HostName: 11.4.3.74
+    Inherits: diksha-prod
+    
+  dk-prod-prod-secor-backup-1:
+    HostName: 11.4.3.65
+    Inherits: diksha-prod
+    
+  dk-prod-prod-secor-backup-2:
+    HostName: 11.4.3.66
+    Inherits: diksha-prod
+    
+  dk-prod-prod-secor-backup-3:
+    HostName: 11.4.3.67
+    Inherits: diksha-prod
+    
+  dk-prod-production-bastion:
+    HostName: 11.4.0.29
+    Inherits: diksha-prod
+    
+  dk-prod-redis-dis-forum:
+    HostName: 11.4.2.88
+    Inherits: diksha-prod
+    
+  dk-prod-redis-dp-1:
+    HostName: 11.4.2.31
+    Inherits: diksha-prod
+    
+  dk-prod-redis-dp:
+    HostName: 11.4.2.4
+    Inherits: diksha-prod
+    
+  dk-prod-redis-kp-lms-1:
+    HostName: 11.4.2.86
+    Inherits: diksha-prod
+    
+  dk-prod-redis-meta-1:
+    HostName: 11.4.2.87
+    Inherits: diksha-prod
+    
+  dk-prod-redis-meta-2-1:
+    HostName: 11.4.2.96
+    Inherits: diksha-prod
+    
+  dk-prod-redis:
+    HostName: 11.4.2.36
+    Inherits: diksha-prod
+    
+  dk-prod-report-cassandra:
+    HostName: 11.4.2.99
+    Inherits: diksha-prod
+    
+  dk-prod-spark-dp:
+    HostName: 11.4.3.49
+    Inherits: diksha-prod
+    
+  dk-prod-spark:
+    HostName: 11.4.3.12
+    Inherits: diksha-prod
+    
+  dk-prod-Yarn-RM:
+    HostName: 11.4.3.4
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-1:
+    HostName: 11.4.3.5
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-2:
+    HostName: 11.4.3.6
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-3:
+    HostName: 11.4.3.7
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-4:
+    HostName: 11.4.3.8
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-5:
+    HostName: 11.4.3.9
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-6:
+    HostName: 11.4.3.24
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-7:
+    HostName: 11.4.3.58
+    Inherits: diksha-prod
+    
+  dk-prod-yarn-slave-8:
+    HostName: 11.4.3.59
+    Inherits: diksha-prod
+    
+  dk-prod-spark-3-auto:
+    HostName: 11.4.3.38
+    Inherits: diksha-prod
+
+
+
+
+    
+
+

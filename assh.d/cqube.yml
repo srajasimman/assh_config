@@ -1,0 +1,10 @@
+hosts:
+  dk-preprod-cqube-nginx-lb:
+    HostName: 10.14.0.5
+    Inherits: diksha-main
+    Gateways: dk-preprod-bastion
+
+  dk-preprod-cqube-preprod-1:
+    HostName: 10.14.0.4
+    Inherits: diksha-main
+    Gateways: dk-preprod-bastion

@@ -1,0 +1,5 @@
+hosts:
+  dk-preprod-sunbird-registry-preprod:
+    HostName: 10.10.0.4
+    Inherits: diksha-main
+    Gateways: dk-preprod-bastion

@@ -1,0 +1,5 @@
+hosts:
+  dk-igot-covid-dashboard:
+    HostName: 10.13.0.4
+    Inherits: diksha-main
+    Gateways: dk-admin-bastion

@@ -1,0 +1,9 @@
+hosts:
+  # DIKSHA
+  dk-prod-kube-bastion:
+    HostName: 11.4.0.75
+    Inherits: diksha-prod
+
+  dk-preprod-kube-bastion:
+    HostName: 11.5.3.36
+    Inherits: diksha-preprod
